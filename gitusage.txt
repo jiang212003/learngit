@@ -1,0 +1,5 @@
+git add gitusage.txt
+git commit -m "commit gitusage.txt"
+git status
+cat gitusage.txt
+git diff gitusage.txt
