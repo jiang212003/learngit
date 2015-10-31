@@ -8,3 +8,8 @@ Git Basic commands:
 6.把一个已有的本地仓库与Githubs 上的已有的库关联(例如远程库: https://github.com/jiang212003/CMI.git)
    git remote add origin git@github.com:jiang212003/learngit.git
 7.git chone https://github.com/d3/d3-plugins.git
+8.由于远程库是空的，我们第一次推送master分支时，加上了-u参数，
+  Git不但会把本地的master分支内容推送的远程新的master分支，
+  还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+    git push -u origin master
+	git push origin master
