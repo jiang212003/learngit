@@ -1,5 +1,10 @@
-git add gitusage.txt
-git commit -m "commit gitusage.txt"
-git status
-cat gitusage.txt
-git diff gitusage.txt
+Git Basic commands:
+
+1.git add gitusage.txt
+2.git commit -m "commit gitusage.txt"
+3.git status
+4.cat gitusage.txt
+5.git diff gitusage.txt
+6.把一个已有的本地仓库与Githubs 上的已有的库关联(例如远程库: https://github.com/jiang212003/CMI.git)
+   git remote add origin git@github.com:jiang212003/learngit.git
+7.git chone https://github.com/d3/d3-plugins.git
